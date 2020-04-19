@@ -37,7 +37,7 @@ function render_Hist() {
 }
 
 function getUV() {
-    var query_UV = "http://api.openweathermap.org/data/2.5/uvi?"; 
+    var query_UV = "https://api.openweathermap.org/data/2.5/uvi?"; 
     var UV_Object = {"appid": "f5cd70688610c663b7ddd2459c1f62bd"};
     UV_Object.lat = coord.lat;
     UV_Object.lon = coord.lon;     
