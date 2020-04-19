@@ -12,8 +12,8 @@ var hist_Loc_Stor = [];
 var city_Name = "";
 var input_ID = "";
 
-var weatherURL = "http://api.openweathermap.org/data/2.5/weather?";
-var forecastURL = "http://api.openweathermap.org/data/2.5/forecast?";
+var weatherURL = "https://api.openweathermap.org/data/2.5/weather?";
+var forecastURL = "https://api.openweathermap.org/data/2.5/forecast?";
 var query_Object = {"appid": "f5cd70688610c663b7ddd2459c1f62bd"};
 
 init();
